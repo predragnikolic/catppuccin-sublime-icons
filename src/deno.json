@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "run": "deno run --allow-read --allow-write build.ts"
+    "run": "deno run --allow-read --allow-write build.ts",
+    "build-sublime": "deno run --allow-read --allow-write build-sublime.ts"
   },
   "imports": {
     "@catppuccin/palette": "jsr:@catppuccin/palette@^1.7.1"
