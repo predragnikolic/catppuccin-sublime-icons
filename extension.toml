@@ -1,7 +1,0 @@
-id = "catppuccin-icons"
-name = "Catppuccin Icons"
-version = "1.24.0"
-schema_version = 1
-authors = ["Catppuccin <releases@catppuccin.com>"]
-description = "🦊 Soothing pastel icons for Zed"
-repository = "https://github.com/catppuccin/zed-icons"
