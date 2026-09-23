@@ -1,4 +1,4 @@
-🌿 Kaputtin Mocha
+🌿 Catppuccin Mocha
 <img src="assets/example.png"/>
 
 ## Usage
