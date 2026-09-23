@@ -44,7 +44,7 @@ for (const theme of cappuccinIcons.default["themes"]) {
   }
 
 	await Deno.writeTextFile(
-		`../build/${theme["name"]}.sublime-file-icons`,
+		`../${theme["name"]}.sublime-file-icons`,
 		JSON.stringify(icon_map, null, 4),
 	);
 }
