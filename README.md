@@ -1,25 +1,25 @@
-🌿 Catppuccin Mocha
+# Icons - Catppuccin Mocha
 
 <img src="assets/example.png"/>
 
 ## Getting started
 
-Open the terminal in Sublime Text "Packages" folders and run:
-`git clone https://github.com/predragnikolic/catppuccin-sublime-icons.git "Icons - Catppuccin Mocha"`
-
-Open the command palette and select `Preferences: Settings` and set the icon theme:
+Clone the repo in Sublime Text "Packages" folders:
+```bash
+git clone https://github.com/predragnikolic/catppuccin-sublime-icons.git "Icons - Catppuccin Mocha"
 ```
+Select `Preferences: Settings` in the command palette and set:
+```jsonc
+// Preferences.sublime-settings
 {
-    "file_icon_theme": "Catppuccin Mocha.sublime-file-icons",
+    "file_icon_theme": "Catppuccin Mocha.sublime-file-icons"
 }
 ```
 
 Tweak your current theme, so the icons look nice.
 Open the command palette and select `UI: Customize Theme`:
-```
-// Documentation at https://www.sublimetext.com/docs/themes.html
+```jsonc
 {
-    "variables": {},
     "rules": [
         // #1 Fix stretched file icons
         {
@@ -43,23 +43,9 @@ Open the command palette and select `UI: Customize Theme`:
         {
             "class": "disclosure_button_control",
             "content_margin": 0
-        },
+        }
     ]
 }
-```
-
-## Development - Theme Generation
-
-Install [deno](https://docs.deno.com/runtime/getting_started/installation/), a zero-config runtime for typescript.
-
-To generate ``Catppuccin Mocha.sublime-file-icons`` run the following command:
-```bash
-cd src && deno run build-sublime
-```
-
-To convert svg's to png's run the following command:
-```bash
-cd src && deno run convert-svg-to-png
 ```
 
 ## 💝 Thanks to
