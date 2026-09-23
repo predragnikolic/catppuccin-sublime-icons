@@ -6,7 +6,7 @@
 
 Clone the repo in Sublime Text "Packages" folders:
 ```bash
-git clone https://github.com/predragnikolic/catppuccin-sublime-icons.git "Icons - Catppuccin Mocha"
+git clone git@github.com:predragnikolic/catppuccin-sublime-icons.git "Icons - Catppuccin Mocha"
 ```
 Select `Preferences: Settings` in the command palette and set:
 ```jsonc
@@ -21,17 +21,19 @@ Open the command palette and select `UI: Customize Theme`:
 ```jsonc
 {
     "rules": [
-        // #1 Fix stretched file icons
+        // Fix stretched file icons
         {
             "class": "icon_file_type",
-            "content_margin": 8
+            "content_margin": 8,
+            "layer0.opacity": 1.0 // tweak opacity to your liking
         },
 
-        // #2 Change folder open/close icons
+        // Change folder open/close icons
         {
             "class": "icon_folder",
             "layer0.texture": "Icons - Catppuccin Mocha/icons/file_type_folder.png",
-            "content_margin": 8
+            "content_margin": 8,
+            "layer0.opacity": 1.0 // tweak opacity to your liking
         },
         {
             "class": "icon_folder",
@@ -39,13 +41,14 @@ Open the command palette and select `UI: Customize Theme`:
             "layer0.texture": "Icons - Catppuccin Mocha/icons/file_type_folder_open.png",
         },
 
-        // #3 Hide arrow icons that are displayed next to folders
+        // Hide arrow icons that are displayed next to folders
         {
             "class": "disclosure_button_control",
             "content_margin": 0
-        }
+        },
     ]
 }
+
 ```
 
 ## 💝 Thanks to
