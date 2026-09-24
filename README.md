@@ -4,7 +4,7 @@
 
 ## Getting started
 
-Clone the repo in Sublime Text "Packages" folders:
+Clone the repo in Sublime Text "Packages" folders and make sure that the folder is named "Icons - Catppuccin Mocha":
 ```bash
 git clone https://github.com/predragnikolic/catppuccin-sublime-icons.git "Icons - Catppuccin Mocha"
 ```
