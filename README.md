@@ -6,7 +6,7 @@
 
 Clone the repo in Sublime Text "Packages" folders:
 ```bash
-git clone git@github.com:predragnikolic/catppuccin-sublime-icons.git "Icons - Catppuccin Mocha"
+git clone https://github.com/predragnikolic/catppuccin-sublime-icons.git "Icons - Catppuccin Mocha"
 ```
 Select `Preferences: Settings` in the command palette and set:
 ```jsonc
