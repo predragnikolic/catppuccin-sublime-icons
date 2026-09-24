@@ -28,7 +28,7 @@ Open the command palette and select `UI: Customize Theme`:
             "layer0.opacity": 1.0 // tweak opacity to your liking
         },
 
-        // Change folder open/close icons
+        // Change open/close folder icons
         {
             "class": "icon_folder",
             "layer0.texture": "Icons - Catppuccin Mocha/icons/file_type_folder.png",
@@ -41,7 +41,7 @@ Open the command palette and select `UI: Customize Theme`:
             "layer0.texture": "Icons - Catppuccin Mocha/icons/file_type_folder_open.png",
         },
 
-        // Hide arrow icons that are displayed next to folders
+        // Hides Folder Arrows
         {
             "class": "disclosure_button_control",
             "content_margin": 0
